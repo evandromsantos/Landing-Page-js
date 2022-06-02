@@ -444,3 +444,15 @@ body .full-width {
         font-size: 5rem;
     }
 }
+
+@media (max-width: 280px) {
+    h2 {
+        font-size: 4rem;
+    }
+
+    .form-group button {
+        border: 0.3rem solid var(--white-color);
+        padding: 0.5rem 1rem;
+        font-size: 2rem;
+    }
+}
